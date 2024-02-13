@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 1px solid green;
+    font-family: "Afacad", sans-serif;
+    font-style: normal;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top article{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.top nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+nav li{
+    display: flex;
+    padding-left: 125px;
+    padding-right: 125px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5em;
+    
+}
+
+header h1{
+    color: #F28627;
+    font-family: "Agbalumo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    padding-left: 20px;
+}
+
