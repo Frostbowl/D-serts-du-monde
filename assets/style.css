@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap');
+
+html{
+    width: auto;
+    background-color: #E2E2E2;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1160px;
+    height: auto;
+    background-color: white;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Afacad", sans-serif;
+    font-style: normal;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: solid 1px gray;
+}
+
+.top article{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.top nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+nav li{
+    display: flex;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5em;
+    
+}
+
+header h1{
+    color: #F28627;
+    font-family: "Agbalumo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    padding-left: 20px;
+}
+
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+main section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description{
+    width: 50%;
+    text-align: center;
+}
+
+.top__gallery{
+    width: 50%;
+    text-align: center;
+}
+
+.description img{
+    max-width: 1400px;
+    max-height: 1200px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+p{
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.gallery img{
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    margin: 1px;
+}
+
+main section article{
+    display: flex;
+    flex-direction: column;
+}
+
+.top__gallery article{
+    height: 50%;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+h2{
+    text-align: left;
+    border-bottom: 1px solid rgba(80, 80, 80, 0.6);
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    border-top: solid 1px gray;
+
+}
